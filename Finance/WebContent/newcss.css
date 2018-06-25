@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 23, 2017, 8:41:05 PM
+    Author     : georgy
+*/
+
+.fit-container {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0p 0px;
+	background-color:red;
+}
+#video-background {
+/*  making the video fullscreen  */
+  min-width: 100%; 
+  min-height: 100%;
+}
