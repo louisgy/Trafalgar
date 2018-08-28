@@ -1,0 +1,156 @@
+body {
+
+    /**        VARIOUS OPTIONS FOR BACKGROUND       **/
+    /* Location of the image */
+    background-image: url(../img/shutterstock_104412737.jpg);
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color: #085E97;
+
+    /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+    /*height: 100%;*/
+}
+
+
+
+
+
+/* For mobile devices */
+
+
+/*@media only screen and (max-width: 767px) {
+    body {
+         The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections 
+        background-image: url(../img/building2.jpg);
+    }
+     h1{
+    font-size: 90px;
+ } 
+
+}*/
+
+h1,
+h4,
+h5,
+p {
+    color: white;
+}
+
+.message {
+    position: absolute;
+    top: 58%;
+    bottom: 0;
+    left: 10%;
+    /*background: red;*/
+}
+
+
+.b-footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background: #085E97;
+    width: 100%;
+    padding-top: 1%;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 60px;
+    /*background: #2C3E50;*/
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 45px;
+    /*background: green;*/
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    /*background: #D68910;*/
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+.txt-smaller {
+    font-size: 14px;
+}
+
+.icon-smaller {
+    font-size: 22px;
+}
+
+
+
+
+/* For mobile devices */
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url(../img/shutterstock_104412737.jpg);
+    }
+    h1 {
+        font-size: 39px;
+    }
+    h4 {
+        font-size: 28px;
+    }
+    h5 {
+        font-size: 23px;
+    }
+    p {
+
+        font-size: 14px;
+    }
+    .message {
+        position: absolute;
+        top: 60%;
+        bottom: 0;
+        left: 10%;
+        /*background: red;*/
+    }
+    .b-footer {
+            padding-top: 3%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 768px) {
+     .message {
+        position: absolute;
+        top: 40%;
+        bottom: 4%;
+        left: 10%;
+        /*background: red;*/
+    }
+
+.b-footer {
+    padding-top: 0;
+    padding-top: : 5%;
+}
+}
