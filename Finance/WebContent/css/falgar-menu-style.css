@@ -22,7 +22,7 @@ ul li,p.lead {
       /* font-family: 'Montserrat', sans-serif; */
     /*font-size: 1.0em;*/
     font-family: 'Assistant', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     /* font-weight: 400; */
 }
 
@@ -39,7 +39,7 @@ h2,h2.featurette-heading {
 
 .nav-link {
     /*color: #EEF5FC;*/
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     /* font-weight: 590; */
     text-transform: uppercase;
     letter-spacing: 0.05rem;
