@@ -36,7 +36,20 @@ h2,h2.featurette-heading {
     font-size: 2.2em;
     color: #5499C7;
 }
-
+h1,h4,h5,p{font-family: 'Source Sans Pro', sans-serif;  color:white;}
+h1.ones{ font-size: 2.6em;}
+h4.twos{ font-size: 2.4em;}
+h5.threes{ font-size: 2.0em;}
+p.four{font-size: 1.3em;}
+h5.txt-size,h1.txt-size,p.txt-size{
+    color:white;
+}
+h4.txt-size {
+    font-size: 2.8em; 
+}
+h5.txt-size {
+    font-size: 2.2em; 
+}
 .nav-link {
     /*color: #EEF5FC;*/
     font-size: 0.7rem;
