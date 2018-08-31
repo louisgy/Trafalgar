@@ -43,7 +43,6 @@ h1,h2,h2.featurette-heading {font-family: 'Source Sans Pro', sans-serif;color: #
     background: linear-gradient( rgba(243, 222, 179, 0.30),
     rgba(250, 215, 160, 0.30)),
     url("../img/building8.jpg");
-    /* background-image: url(../img/shutterstock_104412737.jpg); */
     height: 55%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -66,11 +65,9 @@ h1,h2,h2.featurette-heading {font-family: 'Source Sans Pro', sans-serif;color: #
     color: white;
 }
 .back-ground-b{
-    /*background-image: url(../img/shutterstock_104412737.jpg); */
     background: linear-gradient( rgba(243, 222, 179, 0.45),
     rgba(243, 222, 179, 0.45)),
     url(../img/shutterstock_104412737.jpg);
-    /*height: 55%;*/
     background-color:white;
     background-position: center center;
     background-repeat: no-repeat;
@@ -123,5 +120,15 @@ p.bigger-text {
 /*    padding-top: 0.5%;
     padding-bottom: 0.1%;*/
 }
+
+
+
+
+
+
+
+
+
+
 
 
