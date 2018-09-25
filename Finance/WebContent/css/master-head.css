@@ -18,9 +18,7 @@ header.masthead h1 {
     font-size: 2rem
 }
 
-header.masthead p {
-    font-weight: 300
-}
+header.masthead p {font-weight: 300;}
 
 @media (min-width:768px) {
     header.masthead p {
