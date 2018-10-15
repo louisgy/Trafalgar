@@ -1,7 +1,4 @@
-$(window).scroll(function() {
-  if ($(document).scrollTop() > 50) {
-    $('nav').addClass('shrink');
-  } else {
-    $('nav').removeClass('shrink');
-  }
-});
+window.onscroll = () => {
+  const nav = document.querySelector('#navb');
+  if(this.scrollY <= 10) nav.className = 'navbar  navbar-expand-lg navbar-light bg-light fixed-top'; else nav.className = 'navbar  navbar-expand-lg fixed-top scroll';
+};
