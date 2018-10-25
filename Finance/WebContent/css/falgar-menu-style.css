@@ -8,7 +8,7 @@
 @import "https://fonts.googleapis.com/css?family=Roboto:900";
 @import "https://fonts.googleapis.com/css?family=Roboto+Slab:300";
 body,html{height:100%;background-color:#F4F6F6}
-body.bckground{height:100%;background:linear-gradient(rgba(182,154,100,0.40),rgba(243,222,179,0.20)),url(../img/building-14.jpg);background-color:#fff;background-position:center center;background-repeat:no-repeat;background-size:cover;position:relative}
+body.bckground{height:100%;background:linear-gradient(to right,rgba(36,113,163,0.95),rgba(243,222,179,0.60)),url(../img/shutterstock_147025985.jpg);background-color:#fff;background-position:center center;background-repeat:no-repeat;background-size:cover;position:relative}
 p,ul li,p.lead{font-family:'Roboto Slab',serif;letter-spacing:.32px;font-size:1em;color:#000}
 h1.ones,h4.twos,h5.threes,p.four{font-family:'Source Sans Pro',sans-serif;color:#fff}
 h1.ones{font-size:2.6em;color:#fff!important}
@@ -22,13 +22,49 @@ h1,h2,h2.featurette-heading{font-family:'Source Sans Pro',sans-serif;color:#5499
 .transaction{font-family:'Source Sans Pro',sans-serif;font-size:16px}
 .transaction-txt{font-family:'Source Sans Pro',sans-serif;font-size:18px;font-weight:700;color:#1F618D}
 .nav-link{font-size:.9rem;font-weight:500;text-transform:uppercase;letter-spacing:.1rem;font-family:'Roboto',sans-serif;color:#5499C7}
-.banner-1{background:linear-gradient(rgba(243,222,179,0.30),rgba(250,215,160,0.30)),url(../img/building8.jpg);height:55%;background-position:center center;background-repeat:no-repeat;background-size:cover;position:relative}
-.banner-2{background-color:#fff}
+.banner-1 {
+    /*background: linear-gradient(rgba(243, 222, 179, 0.30), rgba(250, 215, 160, 0.30)), url(../img/building8.jpg);*/
+    display: block;
+
+/*    height: 340px;
+    width: 800px;
+    max-height: 340px;
+    max-width: 900px;*/
+
+/*    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative*/
+}
+video {
+  width: 100%    !important;
+  height: auto   !important;
+
+}
+ul {
+    list-style-image: url('sqpurple.gif');
+}
+.card-background{background-image: linear-gradient(rgba(127, 179, 213, 0.8), rgba(127, 179, 213, 0.8)),
+                  url("../img/building-2.jpg");}
+.banner-2{background-color:#ECF0F1 }
 .banner-2-bkg{background-color:#EAECEE}
 .centered{text-align:center;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff}
 .bg-contact{height:100%;background:linear-gradient(rgba(182,154,100,0.40),rgba(243,222,179,0.20)),url(../img/building-14.jpg);background-color:#fff;background-position:center center;background-repeat:no-repeat;background-size:cover;position:relative}
-.back-ground-b{background:linear-gradient(rgba(243,222,179,0.45),rgba(243,222,179,0.45)),url(../img/shutterstock_104412737.jpg);background-color:#fff;background-position:center center;background-repeat:no-repeat;background-size:cover;position:relative}
-.bg-team{background:linear-gradient(rgba(243,222,179,0.45),rgba(243,222,179,0.45)),url(../img/building-3.jpg);background-color:#fff;background-position:center center;background-repeat:no-repeat;background-size:cover;position:relative}
+i{
+    color: #2980B9;
+}
+h2.text-center.white-color{ font-weight: bold;}
+.back-ground-b {
+	background: linear-gradient(217deg, rgba(36, 113, 163,.8), rgba(36, 113, 163,0) 70.71%),
+            linear-gradient(127deg, rgba(26, 82, 118  ,.8), rgba(26, 82, 118  ,0) 70.71%),
+            linear-gradient(336deg, rgba(21, 67, 96,.8), rgba(21, 67, 96,0) 70.71%);
+    /*background: linear-gradient(rgba(39, 55, 70, 0.85), rgba(39, 55, 70, 0.85)), url(../img/shutterstock_104412737.jpg);
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative*/
+}.bg-team{background:linear-gradient(to right,rgba(36,113,163,0.95),rgba(243,222,179,0.60)),url(../img/building-3.jpg);background-color:#fff;background-position:center center;background-repeat:no-repeat;background-size:cover;position:relative}
 .bg-experience{background:linear-gradient(to right,rgba(36,113,163,0.95),rgba(243,222,179,0.60)),url(../img/shaking-hands1.jpg);background-color:#fff;background-position:center center;background-repeat:no-repeat;background-size:cover;position:relative}
 .bg-aboutus{background:linear-gradient(to right,rgba(36,113,163,0.95),rgba(243,222,179,0.60)),url(../img/bridge-rsz.jpg);background-color:#fff;background-position:center center;background-repeat:no-repeat;background-size:cover;position:relative}
 .white-color{color:#fff}
@@ -41,11 +77,10 @@ p.bigger-text{font-size:1.5rem}
 .footer{background-color:#f5f5f5}
 .form-control,.btn{font-family:'Roboto',sans-serif;font-size:100%;width:100%;padding:12px 20px;margin:8px 0;box-sizing:border-box;border:1px solid #CACFD2;border-radius:0}
 .team-jumbotron-bg{background-image:url(../img/building8.jpg);color:#fff;background-position:center;background-repeat:no-repeat;background-size:cover;position:relative}
-nav{transition:background-color .4s ease-out}
+nav{transition:background-color .4s ease-out;background-color: rgba(133, 193, 233, 0.3); box-shadow: 0px 1px 1px #FFFFFF;}
+nav > div.container > div#navbarNav > ul.navbar-nav > li.nav-item a.nav-link{color:white;}
 nav.scroll{box-shadow:0 4px 7px #777;background-color:#F8F9F9;color:#2874A6}
-nav.scroll .navbar-nav > li.nav-item > a.nav-link,#mainNav .navbar-nav > li.nav-item > a.nav-link:focus{font-size:.9rem;color:#2874A6}
-nav .navbar-nav > li.nav-item > a.nav-link,#mainNav .navbar-nav > li.nav-item > a.nav-link{font-size:.9rem;color:#5499C7}
-
+nav.scroll > div.container > div#navbarNav > ul.navbar-nav > li.nav-item a.nav-link{color:#2874A6}
 .experience-box{background:#ECEFF1;margin-bottom:0;padding-bottom:0}
 .foot-cust{min-height:60px}
 h1.big-thick{font-family:'Roboto',sans-serif;font-size:40px;color:#fff}
@@ -62,26 +97,19 @@ body > .container{padding:15px 15px 0}
   width: 100%;
   /*box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);*/
 }
-form#contact > .form-group > input {height: 45px;border-radius: 0px 0px 0px 0px;-moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;border: 0px solid #302f30;}
-#contact input:focus,
-#contact textarea:focus {-webkit-box-shadow: 0px 5px 12px -2px rgba(121,153,184,0.89);-moz-box-shadow: 0px 5px 12px -2px rgba(121,153,184,0.89);box-shadow: 0px 5px 12px -2px rgba(121,153,184,0.89);
+form#contact > .form-group > input { outline: none;border: 1px solid #eaeaea;height: 45px;border-radius: 0px 0px 0px 0px;-moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;margin-top: 0px;}
+form#contact > .form-group > textarea {height: 100px;border-radius: 0px 0px 0px 0px;-moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;border: 0px solid #302f30;margin-top: 0px;}
+form#contact  > button[type="submit"] {cursor: pointer;width: 100%;border: none;background: #42A5F5;color: #FFF;}
+form#contact > .form-group > label {margin-bottom: 0px;padding-bottom: 0px;color: #09395A    }
+form#contact  > button[type="submit"]:hover,focus {
+background: rgba(16,76,132,1);
+background: -moz-linear-gradient(left, rgba(16,76,132,1) 0%, rgba(13,58,110,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(16,76,132,1)), color-stop(100%, rgba(13,58,110,1)));
+background: -webkit-linear-gradient(left, rgba(16,76,132,1) 0%, rgba(13,58,110,1) 100%);
+background: -o-linear-gradient(left, rgba(16,76,132,1) 0%, rgba(13,58,110,1) 100%);
+background: -ms-linear-gradient(left, rgba(16,76,132,1) 0%, rgba(13,58,110,1) 100%);
+background: linear-gradient(to right, rgba(16,76,132,1) 0%, rgba(13,58,110,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#104c84', endColorstr='#0d3a6e', GradientType=1 );
 }
-/*#contact input[type="text"],
-#contact input[type="email"],
-#contact textarea {
-  height: 45px;
-border-radius: 0px 0px 0px 0px;
--moz-border-radius: 0px 0px 0px 0px;
--webkit-border-radius: 0px 0px 0px 0px;
-border: 0px solid #302f30;
-
-
-}
-#contact input:focus,
-#contact textarea:focus {
--webkit-box-shadow: 0px 5px 12px -2px rgba(121,153,184,0.89);
--moz-box-shadow: 0px 5px 12px -2px rgba(121,153,184,0.89);
-box-shadow: 0px 5px 12px -2px rgba(121,153,184,0.89);
-}*/
-
+#contact input:focus,#contact textarea:focus {-webkit-box-shadow: 0px 5px 12px -2px rgba(121,153,184,0.89);-moz-box-shadow: 0px 5px 12px -2px rgba(121,153,184,0.89);box-shadow: 0px 5px 12px -2px rgba(121,153,184,0.89);}
 .form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:red;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}
